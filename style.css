@@ -1,0 +1,83 @@
+/* ==========================================
+   Element Selectors
+   ========================================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   ID Selectors
+   ========================================== */
+#main-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#add-expense-section {
+    background-color: #ffffff;
+    border-top: 4px solid #007bff;
+}
+
+#expenses-list-section {
+    background-color: #ffffff;
+    border-top: 4px solid #28a745;
+}
+
+#add-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* ==========================================
+   Class Selectors
+   ========================================== */
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.placeholder-text {
+    font-style: italic;
+    color: #777777;
+    text-align: center;
+    padding: 10px 0;
+}
